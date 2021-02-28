@@ -22,7 +22,7 @@ class my_window(QMainWindow):
 
         self.score_label = QtWidgets.QLabel(self)
         self.score_label.resize(150, 15)
-        self.score_label.setText('Projected Score: ')
+        self.score_label.setText('Predicted Score: ')
         self.score_label.move(50, 350)
 
         self.score_int = QtWidgets.QLabel(self)
