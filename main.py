@@ -31,43 +31,43 @@ class my_window(QMainWindow):
 
         self.button = QtWidgets.QPushButton(self)
         self.button.move(100, 300)
-        self.button.setText('submit')
+        self.button.setText('Submit')
         self.button.clicked.connect(self.clicked)
 
         self.G1_label = QtWidgets.QLabel(self)
-        self.G1_label.setText('G1:')
+        self.G1_label.setText('Exam 1 (/15):')
         self.G1_label.move(50, 50)
 
         self.G1_text = QLineEdit(self)
-        self.G1_text.move(150, 50)
+        self.G1_text.move(155, 50)
 
         self.G2_label = QtWidgets.QLabel(self)
-        self.G2_label.setText('G2:')
+        self.G2_label.setText('Exam 2 (/15):')
         self.G2_label.move(50, 100)
 
         self.G2_text = QLineEdit(self)
-        self.G2_text.move(150, 100)
+        self.G2_text.move(155, 100)
 
         self.studytime_label = QtWidgets.QLabel(self)
-        self.studytime_label.setText('studytime:')
+        self.studytime_label.setText('Study Time:')
         self.studytime_label.move(50, 150)
 
         self.studytime_text = QLineEdit(self)
-        self.studytime_text.move(150, 150)
+        self.studytime_text.move(155, 150)
 
         self.failures_label = QtWidgets.QLabel(self)
-        self.failures_label.setText('failures:')
+        self.failures_label.setText('# of Failures:')
         self.failures_label.move(50, 200)
 
         self.failures_text = QLineEdit(self)
-        self.failures_text.move(150, 200)
+        self.failures_text.move(155, 200)
 
         self.absences_label = QtWidgets.QLabel(self)
-        self.absences_label.setText('absences:')
+        self.absences_label.setText('# of Absences:')
         self.absences_label.move(50, 250)
 
         self.absences_text = QLineEdit(self)
-        self.absences_text.move(150, 250)
+        self.absences_text.move(155, 250)
 
 
     def clicked(self):
